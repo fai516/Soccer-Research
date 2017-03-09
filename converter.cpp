@@ -6,8 +6,18 @@
 #include "soccerCSV.hpp"
 using namespace std;
 
-struct Path{
-  
+/*
+1.Passing acc for P(i)
+2.Shoot acc for P(i)
+3.flow centrality(Play performance)
+4.pass(arc) centrality              P(i)->
+*/
+
+class Path{
+  int current_total;
+  vector<int> path;
+  Path(){current_total=0;}
+
 };
 
 class Player{
