@@ -3,7 +3,8 @@
 #include <string>
 #include <fstream>
 #include <unordered_map>
-#include "soccerCSV.hpp"
+#include "CSVreader.h"
+#include "soccerCSV.h"
 using namespace std;
 
 /*
@@ -12,6 +13,12 @@ using namespace std;
 3.flow centrality(Play performance) FC(i)
 4.pass(arc) centrality              AC(i)->(for every )
 */
+
+void printPlayerHash(Team in){  //can be put in Team class
+  for(int i=0;i<in.players.size();i++){
+    cout << in.players[i] << "." << in.player_hash[in.players[i]] << endl;
+  }
+}
 
 class Path{
   int current_total;
@@ -35,21 +42,21 @@ int main(int argc, char* argv[]){
       exit(0);
     }
     else{
-      vector<int> player;
-      unordered_map<unsigned int, Player* > player_hash;  //hashing player's number to Player class;
+      Team SnT;
 
 
       while(getline(infile,buffer)){  //Read line by line
         nLine++;
-        SoccerCSV data_in(buffer); //convert a line of CSV raw file into CSV class
-        //ScanPlayerPOS(data_in, player_hash);
-        data_in.print();
+        vector<string> item = CSVconverter(buffer,',');
+        SoccerCSV data_in(item); //convert a line of CSV raw file into CSV class
+        data_in.fetchPlayer(SnT);
+        //printPlayerHash(player,player_hash);
+        //data_in.print();
       }
       infile.close();
-
+      printPlayerHash(SnT);
       cout << "Process " << nLine << " lines."<< endl;
     }
   }
-
   return 0;
 }
