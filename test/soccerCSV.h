@@ -2,18 +2,50 @@
 #include <vector>
 using namespace std;
 
+
 struct Player{
   int number;
   string pos;
-  int total_pass;
-  int total_pass_end_shot;
-  unordered_map<unsigned int, unsigned int> successful_passes; //successful pass to all player.
-  unordered_map<unsigned int, unsigned int> successful_passes_end_shot; //successful_passes_end_shot
+  int tPass;    //total pass
+  int sPass;    //successful pass (unversal)
+  int tPassES;  //total pass end in a shot
+  int sPassES;  //total pass end in a shot (unversal)
+  unordered_map<unsigned int, unsigned int> sPass_pvp; //sPass to respective player.
+  unordered_map<unsigned int, unsigned int> sPassES_pvp; //sPassES to respective player.
+
+  int total_shot;
+  int successful_shot;
+
+  void showStat(vector<unsigned int> teammate){
+      cout<<"#"<<number<<" "<<pos
+          <<"\tPass: "<<sPass<<"/"<<tPass
+          <<"\tPassES: "<<sPassES<<"/"<<tPassES<<endl;
+      cout<<"sPass_pvp: ";
+      for(int i=0;i<teammate.size();i++){
+        if(teammate[i]==number) continue;
+        else{
+            cout << teammate[i] << "-(" << sPass_pvp[teammate[i]] << ")  ";
+        }
+      }
+      cout<<endl;
+      cout<<"sPassES_pvp: ";
+      for(int i=0;i<teammate.size();i++){
+        if(teammate[i]==number) continue;
+        else{
+            cout << teammate[i] << "-(" << sPassES_pvp[teammate[i]] << ")  ";
+        }
+      }
+  }
 };
 
 struct Team{
   vector<unsigned int> players;
   unordered_map<unsigned int, Player* > player_hash;
+
+  vector<double> PassingACC;
+  vector<double> Performance;
+  vector<int> sucessful_pass;
+  vector<double> PassCentrality;
 };
 
 struct SoccerCSV{
@@ -46,7 +78,7 @@ struct SoccerCSV{
   vector<string> sPlayer;   //                          #26-36
   vector<string> sPosition; //                          #37-47
 
-  string touch;
+  string touches;
   SoccerCSV(vector<string> in){
     int selector=1;
     for(int sel=0;sel<25;sel++){
@@ -105,5 +137,19 @@ struct SoccerCSV{
         input.players.push_back(num);
       }
     }
+  }
+
+  void checkShoot(Team &input){
+    if(!TOC.empty()){
+      cout << PlayerNumber<<" "<< Shooter << " " << TOC << endl;
+      int s = stoi(Shooter);
+      Player* shooter = input.player_hash[s];
+      if(shooter == NULL){cout << "unexpected error: shooter is NULL"<<endl;exit(0);}
+      else if(ROS == "SOT"){shooter->total_shot++;}
+      else{shooter->total_shot++;shooter->successful_shot++;}
+
+      //cout << shooter->number << " performs " << ROS << ". Stat: " << shooter->successful_shot++ << "/" << shooter->total_shot << endl;
+    }
+    //else{cout<<"Not a shoot."<<endl;}
   }
 };
