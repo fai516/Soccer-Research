@@ -28,6 +28,7 @@ using namespace std;
                           -> (SOG,Goal)->[G],(SOT)->[W]
                           -> Who shoot?
                           -> successful? [G] defines as sucessful shoot.
+                        
 #4 Normalize @1-@5
 
 */

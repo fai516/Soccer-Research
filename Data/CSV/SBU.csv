@@ -1,0 +1,335 @@
+Time,Player Number,Area,Result of Possession,Passed Towards,Opp. Passes,Defensive,Foul Committed,Foul Drawn,Yellow,Red,Offsides,Type of Chance,Distance of Shot,Result of Shot,Number of Passes,Type of Chance2,Distance of Shot3,Result of Shot4,Number of Passes5,Who Took the Chance,Last Pass,2nd to Last,3rd to Last,4th to Last,Player #1,Player #2,Player #3,Player #4,Player #5,Player #6,Player #7,Player #8,Player #9,Player #10,Player #11,Posistion 1,Posistion 2,Posistion 3,Posistion 4,Posistion 5,Posistion 6,Posistion 7,Posistion 8,Posistion 9,Posistion 10,Posistion 11,Posistion 12
+0-15,19,LD,1,15,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,15,LM,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,24,LM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,11,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,20,LM,1,24,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,24,LM,0,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,16,LM,1,24,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,24,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,1,CD,1,19,12,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,19,LD,1,1,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,1,CD,1,19,12,Possession Added,,,,,,Set Piece,25,SOG,0,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,19,LD,1,1,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,1,CD,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,19,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,1,CD,1,19,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,19,LD,0,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,16,LM,1,19,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,19,LM,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,4,RM,0,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,19,LD,1,11,7,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,11,LA,1,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,15,LA,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,11,RA,Possession Lost,,,Play Disrupted,,,,,,,,,,Run of Play,10,SOG,1,11,15,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,16,LM,1,19,2,Possession Added,,,,,opp.,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,19,LD,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,4,RD,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,19,LD,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,4,RD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,26,RM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,11,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,19,LM,0,24,6,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,24,CD,1,11,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,11,CA,Possession Lost,,,,,,,,,,,,,Run of Play,5,Goal,1,15,10,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,26,RD,0,5,34,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,19,CD,Possession Lost,,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,26,RM,1,24,11,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,24,RM,0,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,2,CM,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,5,LM,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,2,LD,1,19,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,19,LD,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,20,CM,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,5,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,1,CD,1,2,4,Possession Added,,,,,,Run of Play,10,SOG,1,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,2,CD,0,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,2,CM,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,4,CD,Possession Lost,,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,11,LM,1,15,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,15,LM,0,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,16,LM,1,11,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+0-15,11,LM,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,24,LM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+0-15,11,CA,0,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,24,RM,1,11,25,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,11,RM,0,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,2,CM,1,5,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,5,CM,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,16,LM,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,19,LD,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,4,RD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,26,RM,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,4,RD,1,1,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,1,CD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,5,CM,Possession Lost,,2,Possession Added,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,2,CD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,26,CD,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,1,CD,1,19,11,Possession Added,,,,,,Run of Play,15,SOT,0,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,19,LD,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,16,LD,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,19,LD,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,11,LM,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,24,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,11,LM,1,15,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,15,LM,0,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,16,LD,1,24,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,24,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,1,CD,1,11,3,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,11,CD,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,20,CM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,11,CA,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,16,LA,1,20,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,20,LA,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,24,LM,1,16,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,16,LM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,11,LM,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,24,LA,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,20,LA,Possession Lost,,,,,,,,,,,,,Run of Play,18,SOG,1,20,24,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,19,LD,1,1,6,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,1,CD,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,5,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,26,RD,0,5,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,16,LD,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,19,LD,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,4,RD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,26,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,16,LD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,26,CM,1,5,12,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,5,LM,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,26,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,26,RD,1,5,2,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,5,RD,Possession Lost,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,4,RD,1,19,6,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,19,LD,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,4,RD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,15,CM,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,4,CD,1,20,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,20,CM,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+15-30,5,RM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,11,CM,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+15-30,5,RA,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,15,LM,Possession Lost,,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,16,LM,1,20,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,20,CM,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,19,LD,1,1,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,1,CD,1,2,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,2,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,26,RM,Possession Lost,,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,5,CM,1,20,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,20,LM,Possession Lost,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,16,LM,1,19,14,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,19,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,1,CD,1,19,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,19,LD,1,1,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,1,CD,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,19,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,19,CD,0,20,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,24,LD,1,2,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,2,LD,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,4,CD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,26,RD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,24,RD,1,11,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,11,RM,1,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,15,CM,0,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,15,LD,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,16,LD,1,15,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,15,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,16,LD,1,11,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,11,LM,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,24,LM,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,16,LM,1,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,15,LM,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,16,LM,0,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,2,LD,1,24,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,24,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,16,LM,Possession Lost,,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,20,LD,1,24,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,24,LM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,11,CM,0,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,24,LM,1,20,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,20,LM,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,5,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,4,CM,1,2,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,2,CM,0,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,2,LM,0,26,8,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,20,RD,Possession Lost,,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,19,CD,Possession Lost,,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,1,CD,1,16,3,Possession Added,,,,,,Run of Play,10,SOT,1,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,16,LD,,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,19,LD,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,16,LD,1,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,15,LD,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,19,LD,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,5,CM,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,20,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,2,CD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+30-45,1,CD,0,5,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+30-45,1,CD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,15,RM,0,20,8,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,2,RM,Possession Lost,,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,26,RD,Possession Lost,,6,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,1,CD,1,4,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,4,RD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,26,RD,0,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,24,CM,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,26,RM,1,24,3,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,24,RM,0,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,1,CD,1,24,16,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,24,CM,1,2,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,2,CM,0,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,2,CM,1,19,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,19,LD,1,2,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,2,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,1,CD,1,2,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,2,LD,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,5,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,16,LM,0,10,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,26,RD,0,5,11,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,5,RD,0,24,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,1,CD,1,5,3,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,5,CM,1,4,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,4,CM,1,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,15,CD,Possession Lost,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,4,CM,1,15,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,15,LA,0,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,1,CD,1,16,13,Play Disrupted,,,,,,Set Piece,10,SOG,0,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,16,RD,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,20,RD,1,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,15,RD,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,16,RD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,16,RD,0,11,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,1,CD,Possession Lost,,13,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,26,CD,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,1,CD,1,4,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,4,RD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,26,RD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,26,LD,1,5,6,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,5,LM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,11,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,24,RD,Possession Lost,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+45-60,26,LM,Possession Lost,,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,16,RM,1,19,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,19,LA,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+45-60,2,LA,Possession Lost,,,Possession Added,,,,,,,,,,Run of Play,40,Goal,1,2,20,,,,1,5,19,4,26,20,2,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,10,RM,,,,,,,Yes,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,5,RM,1,2,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,2,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,1,CD,Possession Lost,,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,16,RM,,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,15,LM,0,11,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,5,LD,1,26,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,26,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,2,CD,Possession Lost,,15,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,1,CD,0,11,4,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,2,CD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,RM,1,11,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,11,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,16,RD,Possession Lost,,11,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,16,RD,1,4,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,4,LD,1,26,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,26,LD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,2,LD,1,24,5,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,LD,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,20,LM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,11,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,2,CM,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,24,CM,1,9,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,9,CA,Possession Lost,,,,,,,,,,,,,Run of Play,30,Goal,1,9,24,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,19,LD,1,11,5,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,11,LM,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,24,LM,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,20,LM,0,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,20,LM,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,10,LM,1,11,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,11,CA,1,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,5,CA,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,19,LD,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,11,CA,Possession Lost,,6,Play Disrupted,,,,,Yes,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,26,RD,0,5,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,CM,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,19,CD,1,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,20,RD,Possession Lost,,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,19,CD,1,24,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,RM,1,10,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,10,RM,1,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,11,RA,1,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,CA,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,2,RD,1,20,7,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,20,CD,1,10,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,10,CM,0,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,24,RM,0,10,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,2,RM,1,5,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,5,CM,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,19,CD,0,11,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,2,CD,1,20,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,20,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,20,RD,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,1,CD,1,24,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,24,RM,,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,26,RM,1,11,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,11,RA,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,5,RA,1,11,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+60-75,11,RA,0,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+60-75,26,RD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,2,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,26,CM,,,,,,,Yes,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,26,RD,1,5,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,5,RD,0,20,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,1,CD,1,11,,Play Disrupted,,,,,,Run of Play,20,SOG,1,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,26,20,16,10,15,24,9,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,16,LD,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,2,RM,1,20,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,20,RM,0,24,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,16,RM,0,11,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,2,CM,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,4,CD,1,14,3,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,14,CD,Possession Lost,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,10,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,10,CM,0,11,3,Possession Added,,,,,,Set Piece,12,Goal,0,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,26,RD,1,11,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,RD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,26,RM,Possession Lost,,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,RM,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,24,RM,1,8,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,8,RM,0,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,4,RD,Possession Lost,,7,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,5,CD,1,11,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,CM,0,15,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,4,RD,Possession Lost,,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,19,CD,Possession Lost,,4,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,2,RD,,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,1,RD,Possession Lost,,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,26,RM,1,11,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,16,LM,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,16,LA,0,11,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,5,RM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,LA,0,17,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,15,RM,,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,17,CA,Possession Lost,,,,,,,,,,,,,Run of Play,12,Goal,1,17,11,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,2,LD,Possession Lost,,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,LA,0,26,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,2,LM,1,11,2,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,LM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,24,CM,1,5,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,5,CM,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,15,CM,,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,15,RM,Possession Lost,,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,11,CM,1,15,5,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,15,CM,1,19,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,19,RD,0,2,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,2,CD,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,4,CD,1,2,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+75-90,2,RD,1,16,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,16,RD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+75-90,2,CM,Possession Lost,,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+OT,16,CD,1,4,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+OT,4,CD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+OT,11,CM,,,,,,,Yes,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+OT,16,LD,Possession Lost,,8,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+OT,16,LD,,,,,,Yes,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+OT,19,LD,Possession Lost,,,Possession Added,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+OT,10,RM,1,15,,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+OT,15,RM,0,5,,,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
+OT,10,RD,,,,,Yes,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,1
+OT,2,LD,Possession Lost,,11,Play Disrupted,,,,,,,,,,,,,,,,,,,1,5,19,4,21,20,16,17,15,24,11,GK,LB,CB,CB,RB,DCM,DCM,CM,LM,RM,F,2
