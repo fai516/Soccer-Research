@@ -28,7 +28,7 @@ using namespace std;
                           -> (SOG,Goal)->[G],(SOT)->[W]
                           -> Who shoot?
                           -> successful? [G] defines as sucessful shoot.
-                        
+
 #4 Normalize @1-@5
 
 */
@@ -69,11 +69,15 @@ int main(int argc, char* argv[]){
         vector<string> item = CSVconverter(buffer,',');
         SoccerCSV data_in(item); //convert a line of CSV raw file into CSV class
         data_in.fetchPlayer(SnT); //fetching player data from. Players will be dynamics allocated.
-        /* Start */
+        /****************************/
+        /*           Start          */
+        /****************************/
         cout << nLine <<endl;
         data_in.checkShoot(SnT);
 
-        /* End */
+        /****************************/
+        /*            End           */
+        /****************************/
       }
       infile.close();
       Player *nine = SnT.player_hash[9];

@@ -355,7 +355,7 @@
 75-90,1,CD,Possession Lost,,,,,,,,,,,,,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,1
 75-90,24,CM,1,12,1,Play Disrupted,,,,,,,,,,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,1
 75-90,12,CM,Possession Lost,,,,Yes,,,,,,,,,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,3
-75-90,15,CM,1,9,,Possession Added,,,,,,Set Piece,12,Goal,1,0,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,1
+75-90,15,CM,1,9,,Possession Added,,,,,,Set Piece,12,Goal,1,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,1
 75-90,9,CM,1,19,,,,,,,,,,,,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,1
 75-90,19,RM,1,22,,,,,,,,,,,,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,1
 75-90,22,RM,1,16,,,,,,,,,,,,,,,,,,,,,1,7,3,19,12,8,16,24,18,22,9,GK,LB,CB,CB,RB,DCM,DCM,LM,CAM,RM,F,2
