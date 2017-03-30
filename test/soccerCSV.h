@@ -16,15 +16,16 @@ struct Player{
   int total_shot;
   int successful_shot;
 
+  //
   void showStat(vector<unsigned int> teammate){
       cout<<"#"<<number<<" "<<pos
-          <<"\tPass: "<<sPass<<"/"<<tPass
-          <<"\tPassES: "<<sPassES<<"/"<<tPassES<<endl;
-      cout<<"sPass_pvp: ";
+          <<"  Pass: "<<sPass<<"/"<<tPass
+          <<"  PassES: "<<sPassES<<"/"<<tPassES<<endl;
+      cout<<"sPass_pvp:   ";
       for(int i=0;i<teammate.size();i++){
         if(teammate[i]==number) continue;
         else{
-            cout << teammate[i] << "-(" << sPass_pvp[teammate[i]] << ")  ";
+            cout << teammate[i] << "(" << sPass_pvp[teammate[i]] << ")  ";
         }
       }
       cout<<endl;
@@ -32,9 +33,10 @@ struct Player{
       for(int i=0;i<teammate.size();i++){
         if(teammate[i]==number) continue;
         else{
-            cout << teammate[i] << "-(" << sPassES_pvp[teammate[i]] << ")  ";
+            cout << teammate[i] << "(" << sPassES_pvp[teammate[i]] << ")  ";
         }
       }
+      cout<<endl;
   }
 };
 
@@ -147,9 +149,6 @@ struct SoccerCSV{
       if(shooter == NULL){cout << "unexpected error: shooter is NULL"<<endl;exit(0);}
       else if(ROS == "SOT"){shooter->total_shot++;}
       else{shooter->total_shot++;shooter->successful_shot++;}
-
-      //cout << shooter->number << " performs " << ROS << ". Stat: " << shooter->successful_shot++ << "/" << shooter->total_shot << endl;
     }
-    //else{cout<<"Not a shoot."<<endl;}
   }
 };
