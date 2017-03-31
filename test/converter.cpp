@@ -38,6 +38,7 @@ void printPlayerHash(Team in){  //can be put in Team class
     cout << in.players[i] << "." << in.player_hash[in.players[i]] << endl;
   }
 }
+
 class Path{
   int current_total;
   vector<int> path;
@@ -62,11 +63,10 @@ int main(int argc, char* argv[]){
     else{
       Team SnT;
 
-
       while(getline(infile,buffer)){  //Read line by line
         nLine++;
-        vector<string> item = CSVconverter(buffer,',');
-        SoccerCSV data_in(item); //convert a line of CSV raw file into CSV class
+        vector<string> items = CSVconverter(buffer,',');
+        SoccerCSV data_in(items); //convert a line of CSV raw file into CSV class
         data_in.fetchPlayer(SnT); //fetching player data from. Players will be dynamics allocated.
         /****************************/
         /*           Start          */
@@ -79,6 +79,7 @@ int main(int argc, char* argv[]){
         /****************************/
       }
       infile.close();
+      //test here**
       Player *p9 = SnT.player_hash[9];
       p9->showStat(SnT.players);
       //printPlayerHash(SnT);

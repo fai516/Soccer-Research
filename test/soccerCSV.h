@@ -10,13 +10,12 @@ struct Player{
   int sPass;    //successful pass (unversal)
   int tPassES;  //total pass end in a shot
   int sPassES;  //total pass end in a shot (unversal)
-  unordered_map<unsigned int, unsigned int> sPass_pvp; //sPass to respective player.
-  unordered_map<unsigned int, unsigned int> sPassES_pvp; //sPassES to respective player.
+  unordered_map<unsigned int, unsigned int> sPass_pvp; //sPass to each player.
+  unordered_map<unsigned int, unsigned int> sPassES_pvp; //sPassES to each player.
 
-  int total_shot;
-  int successful_shot;
+  int tShot;// total shot
+  int sShot;// sucessful shot
 
-  //
   void showStat(vector<unsigned int> teammate){
       cout<<"#"<<number<<" "<<pos
           <<"  Pass: "<<sPass<<"/"<<tPass
@@ -46,7 +45,7 @@ struct Team{
 
   vector<double> PassingACC;
   vector<double> Performance;
-  vector<int> sucessful_pass;
+  vector< unordered_map<unsigned int,unsigned int> > sucessful_pass;
   vector<double> PassCentrality;
 };
 
@@ -147,8 +146,8 @@ struct SoccerCSV{
       int s = stoi(Shooter);
       Player* shooter = input.player_hash[s];
       if(shooter == NULL){cout << "unexpected error: shooter is NULL"<<endl;exit(0);}
-      else if(ROS == "SOT"){shooter->total_shot++;}
-      else{shooter->total_shot++;shooter->successful_shot++;}
+      else if(ROS == "SOT"){shooter->tShot++;}
+      else{shooter->tShot++;shooter->sShot++;}
     }
   }
 };
