@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 void CSVreader::CSVtoArray(string input, char s){
+  array.clear();
   int last = -1;
   int count = 0;
   for(int i=0;i<input.size();i++){
@@ -16,19 +17,9 @@ void CSVreader::CSVtoArray(string input, char s){
   }
 }
 
-void CSVreader::toSoccerData(){
-  //need index 1,2,3,4,16,18
-  int selector[]={1,2,3,4,16,18};
-  int size = sizeof(selector)/sizeof(int);
-  int count=0;
-
-  vector<string> cpy;
-  for(int i=0;i<size;i++){
-    if(i == selector[count]){
-      cpy.push_back(array[i]);
-      count++;
-    }
+void CSVreader::print(){
+  for(int i=0;i<array.size();i++){
+    cout << array[i] << " ";
   }
-  array.clear();
-  array = cpy;
+  cout << endl;
 }

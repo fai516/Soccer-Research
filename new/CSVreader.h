@@ -3,9 +3,10 @@
 using namespace std;
 
 struct CSVreader{
+  friend struct Team;
   vector<string> array;
 
   void CSVtoArray(string input, char s);
-
-  void toSoccerData();
+  
+  void print();
 };

@@ -48,6 +48,8 @@ class Path{
 
 int main(int argc, char* argv[]){
 
+  Team SnT;
+
   string buffer;
   int nLine=0;
   if(argc != 2){
@@ -71,7 +73,7 @@ int main(int argc, char* argv[]){
         /****************************/
         /*           Start          */
         /****************************/
-        
+
         cout << nLine <<endl;
         data_in.checkShoot(SnT);
 

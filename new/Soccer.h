@@ -1,10 +1,14 @@
 /* This header file only stores definitions */
 /* The implementations are stored in the same name but in .cpp file */
 
+#include "CSVreader.h"
 #include <string>
 #include <vector>
 #include <unordered_map>
 using namespace std;
+
+struct Player;
+struct Team;
 
 struct Player{
   unsigned int number;
@@ -35,4 +39,20 @@ struct Team{
 
   void showStat();  //show all the value of this class.
   void printPlayerHash(Team in);
+};
+
+struct SoccerData : public CSVreader{
+  int Player;
+  string Position;
+  string Possession;
+  string PassTo;
+  string ShotType;
+  string ResultOfShot;
+
+  void toSoccerData();
+  void assign();
+
+  void fetchPlayer(Team *team);
+  void checkShot(Team *team);
+  void checkPass(Team *team);
 };
