@@ -71,6 +71,7 @@ int main(int argc, char* argv[]){
         /****************************/
         /*           Start          */
         /****************************/
+        
         cout << nLine <<endl;
         data_in.checkShoot(SnT);
 
