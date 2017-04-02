@@ -9,6 +9,8 @@ using namespace std;
 
 struct Player;
 struct Team;
+struct SoccerData;
+struct SoccerPath;
 
 struct Player{
   unsigned int number;
@@ -19,7 +21,6 @@ struct Player{
   unsigned int tShot;
   unsigned int sShot;
 
-  unsigned int tPassRS;
 
   unordered_map<unsigned int, unsigned int> sPass_pvp; //sPass to each player.
   unordered_map<unsigned int, unsigned int> sPassES_pvp; //sPassES to each player.
@@ -31,6 +32,10 @@ struct Team{
   vector<int> players; //all the players numbers are stored here
   unordered_map<unsigned int, Player* > playerHash; //store the connections of Player class
 
+  ~Team();
+
+  int tPath;
+  int tPathRS;
   //The big 4 criteria
   vector<double> PassingACC;
   vector<double> Performance;
@@ -38,11 +43,11 @@ struct Team{
   vector< unordered_map<unsigned int, unsigned int> > PassCentrality;
 
   void showStat();  //show all the value of this class.
-  void printPlayerHash(Team in);
+  void printPlayerHash();
 };
 
 struct SoccerData : public CSVreader{
-  int Player;
+  unsigned int playerNum;
   string Position;
   string Possession;
   string PassTo;
@@ -52,7 +57,18 @@ struct SoccerData : public CSVreader{
   void toSoccerData();
   void assign();
 
-  void fetchPlayer(Team *team);
-  void checkShot(Team *team);
-  void checkPass(Team *team);
+  void fetchPlayer(Team *team, SoccerPath &path);
+  bool checkShot(Team *team);
+  bool checkPass(Team *team);
+  bool checkPossession(Team *team);
+};
+
+struct SoccerPath{
+  vector<unsigned int> data;
+
+  void sort();
+  void registerTypePass(Team *team);
+  void registerTypeShot(Team *team);
+  void clear();
+  void print(string type);
 };

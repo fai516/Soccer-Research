@@ -23,7 +23,9 @@ int main(int argc, char* argv[]){
       exit(0);
     }
     else{
+      SoccerPath path;
       Team *SnT = new Team();
+      bool isPass = true;
       while(getline(infile,buffer)){  //Read line by line
         nLine++;
         SoccerData Data;
@@ -35,20 +37,43 @@ int main(int argc, char* argv[]){
         /****************************/
         //cout << "#" << nLine << " ";
         //data_in.checkShoot(SnT);
-        //Data.print();
-        //cout << "#" << nLine << " " << Data.PassTo << endl;
-        Data.fetchPlayer(SnT);
+        Data.print();
+        //cout << "#" << nLine << " " << Data.playerNum << endl;
+        Data.fetchPlayer(SnT,path);
+
+        if(Data.checkShot(SnT)){
+          //path.print("ShotPath");
+          isPass = false;
+          path.clear();
+        }
+        else if(Data.checkPass(SnT)){
+          isPass = true;
+          int p2 = stoi(Data.PassTo);
+          path.data.push_back(p2);
+        }
+        else{
+          isPass = true;
+          //path.print("PassPath");
+          path.clear();
+        }
+
+
 
         /****************************/
         /*            End           */
         /****************************/
       }
+      if(isPass){
+        path.print("PassPath");
+        path.clear();
+      }
+      else{
+        
+      }
+      //SnT->printPlayerHash();
       infile.close();
       delete SnT;
-      //test here**
-      //Player *p9 = SnT.player_hash[9];
-      //p9->showStat(SnT.players);
-      //printPlayerHash(SnT);
+
       cout << "Process " << nLine << " lines."<< endl;
     }
   }
