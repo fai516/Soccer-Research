@@ -23,7 +23,7 @@ struct Player{
 
 
   unordered_map<unsigned int, unsigned int> sPass_pvp; //sPass to each player.
-  unordered_map<unsigned int, unsigned int> sPassES_pvp; //sPassES to each player.
+  unsigned int sPassRS; //sPassES to each player.
 
   void showStat();
 };

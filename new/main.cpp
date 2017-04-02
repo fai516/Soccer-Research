@@ -44,7 +44,9 @@ int main(int argc, char* argv[]){
         if(Data.checkShot(SnT)){
           //path.print("ShotPath");
           isPass = false;
+          path.registerTypeShot(SnT);
           path.clear();
+          SnT->tPathRS++;
         }
         else if(Data.checkPass(SnT)){
           isPass = true;
@@ -55,6 +57,7 @@ int main(int argc, char* argv[]){
           isPass = true;
           //path.print("PassPath");
           path.clear();
+          SnT->tPath++;
         }
 
 
@@ -66,10 +69,13 @@ int main(int argc, char* argv[]){
       if(isPass){
         path.print("PassPath");
         path.clear();
+        SnT->tPath++;
       }
       else{
-        
+        path.registerTypeShot(SnT);
+        SnT->tPathRS++;
       }
+      SnT->showStat();
       //SnT->printPlayerHash();
       infile.close();
       delete SnT;

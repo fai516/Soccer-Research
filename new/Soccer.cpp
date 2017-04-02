@@ -3,13 +3,23 @@
 #include <algorithm>
 
 void Player::showStat(){
-  cout << "hello world" <<endl;
+  cout << "sShotPath: " << this->sPassRS;
 }
 
 void Team::printPlayerHash(){  //can be put in Team class
   for(int i=0;i<players.size();i++){
     cout << players[i] << "-" << playerHash[players[i]] << endl;
   }
+}
+
+void Team::showStat(){
+  for(int i=0;i<this->players.size();i++){
+    cout << "#" << players[i] << "  ";
+    Player *tmp = this->playerHash[players[i]];
+    tmp->showStat();
+    cout << endl;
+  }
+  cout << "TotalShotPath: " << tPathRS << endl;
 }
 
 Team::~Team(){
@@ -104,19 +114,26 @@ bool SoccerData::checkPossession(Team *team){
 void SoccerPath::sort(){
   std::sort(this->data.begin(),this->data.end());
 }
-
 void SoccerPath::registerTypePass(Team *team){
   this->sort();
+  for(int i=0;i<this->data.size();i++){
 
+  }
 }
 void SoccerPath::registerTypeShot(Team *team){
-  this->sort();
-
+  //this->sort();
+  for(int i=0;i<this->data.size();i++){
+    unsigned int PlayerNum = data[i];
+    if(team->playerHash[PlayerNum] == NULL){
+      Player *tmp = new Player();
+      team->playerHash[PlayerNum] = tmp;
+    }
+    team->playerHash[PlayerNum]->sPassRS++;
+  }
 }
 void SoccerPath::clear(){
   this->data.clear();
 }
-
 void SoccerPath::print(string type){
   cout << type << ": ";
   for(int i=0;i<this->data.size();i++){
