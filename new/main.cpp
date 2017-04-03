@@ -1,15 +1,13 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "Soccer.h"
+#include "SoccerGraph.h"
 using namespace std;
 
 
 
-
-
-
 int main(int argc, char* argv[]){
+  vector< vector<unsigned int> > storage;
   string buffer;
   int nLine=0;
   if(argc != 2){
@@ -55,7 +53,9 @@ int main(int argc, char* argv[]){
         }
         else{
           isPass = true;
-          //path.print("PassPath");
+          path.registerTypePass(SnT);
+          path.print("PassPath");
+          storage.push_back(path.data);
           path.clear();
           SnT->tPath++;
         }
@@ -66,8 +66,11 @@ int main(int argc, char* argv[]){
         /*            End           */
         /****************************/
       }
+      //for the last path
       if(isPass){
+        path.registerTypePass(SnT);
         path.print("PassPath");
+        storage.push_back(path.data);
         path.clear();
         SnT->tPath++;
       }
@@ -75,9 +78,16 @@ int main(int argc, char* argv[]){
         path.registerTypeShot(SnT);
         SnT->tPathRS++;
       }
-      SnT->showStat();
-      //SnT->printPlayerHash();
+      //SnT->showStat();
+      SnT->printPlayerHash();
       infile.close();
+      //starting calculation
+      SoccerGraph graph(SnT);
+      graph.solvePassingACC();
+      graph.solveShootingACC();
+      graph.solvePerformance();
+      graph.solvePassCentrality();
+      //ending calculation
       delete SnT;
 
       cout << "Process " << nLine << " lines."<< endl;

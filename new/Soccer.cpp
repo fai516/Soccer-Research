@@ -1,14 +1,18 @@
 #include "Soccer.h"
 #include <iostream>
 #include <algorithm>
-
-void Player::showStat(){
-  cout << "sShotPath: " << this->sPassRS;
+#include <unordered_map>
+void Player::showStat(vector<int> team){
+  //cout << "sShotPath: " << this->sPassRS;
+  cout << "\t: ";
+  for(int i=0;i<team.size();i++){
+    cout << team[i] << "(" << this->sPassPvP[team[i]] << ") ";
+  }
 }
 
 void Team::printPlayerHash(){  //can be put in Team class
   for(int i=0;i<players.size();i++){
-    cout << players[i] << "-" << playerHash[players[i]] << endl;
+    cout << "Player#" << players[i] << "\tAddress: " << playerHash[players[i]] << endl;
   }
 }
 
@@ -16,7 +20,7 @@ void Team::showStat(){
   for(int i=0;i<this->players.size();i++){
     cout << "#" << players[i] << "  ";
     Player *tmp = this->playerHash[players[i]];
-    tmp->showStat();
+    tmp->showStat(players);
     cout << endl;
   }
   cout << "TotalShotPath: " << tPathRS << endl;
@@ -115,20 +119,37 @@ void SoccerPath::sort(){
   std::sort(this->data.begin(),this->data.end());
 }
 void SoccerPath::registerTypePass(Team *team){
-  this->sort();
-  for(int i=0;i<this->data.size();i++){
+  //consider repetation? Not yet.
+  unordered_map<unsigned int, unordered_map<unsigned int,bool> > map;
+  for(int i=1;i<this->data.size();i++){
+    int p1=data[i]; int p2=data[i-1];
+    Player *currentPlayer = team->playerHash[p1];
+    Player *previousPlayer = team->playerHash[p2];
 
+    if(currentPlayer == NULL || previousPlayer == NULL) { //exception handling
+      cout << "Player#" << data[i-1] << " or Player# " << data[i] << " do not exist."; exit(0);
+    }
+    if(map[p1][p2] == false && map[p2][p1] == false){
+      currentPlayer->sPassPvP[p2]++;
+      previousPlayer->sPassPvP[p1]++;
+      map[p1][p2] = true;
+      map[p2][p1] = true;
+    }
   }
 }
 void SoccerPath::registerTypeShot(Team *team){
-  //this->sort();
+  //consider repetation? Yes.
+  unordered_map<unsigned int,bool> map;
   for(int i=0;i<this->data.size();i++){
     unsigned int PlayerNum = data[i];
     if(team->playerHash[PlayerNum] == NULL){
       Player *tmp = new Player();
       team->playerHash[PlayerNum] = tmp;
     }
-    team->playerHash[PlayerNum]->sPassRS++;
+    if(map[PlayerNum] == false){
+      team->playerHash[PlayerNum]->sPassRS++;
+      map[PlayerNum] = true;
+    }
   }
 }
 void SoccerPath::clear(){

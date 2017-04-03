@@ -22,10 +22,10 @@ struct Player{
   unsigned int sShot;
 
 
-  unordered_map<unsigned int, unsigned int> sPass_pvp; //sPass to each player.
-  unsigned int sPassRS; //sPassES to each player.
+  unordered_map<unsigned int, unsigned int> sPassPvP; //sPass to each player.
+  unsigned int sPassRS; //sPassRS to each player.
 
-  void showStat();
+  void showStat(vector<int> team);
 };
 
 struct Team{
@@ -36,11 +36,6 @@ struct Team{
 
   int tPath;
   int tPathRS;
-  //The big 4 criteria
-  vector<double> PassingACC;
-  vector<double> Performance;
-  vector< unordered_map<unsigned int, unsigned int> > SucessfulPass;
-  vector< unordered_map<unsigned int, unsigned int> > PassCentrality;
 
   void showStat();  //show all the value of this class.
   void printPlayerHash();
